@@ -74,6 +74,21 @@
 - font-weight
 - font-style
 
+## 11 - Display
+- block
+- inline
+- inline-block
+- none
+- visibility
+
+## 12 - Flexbox
+- display: flex
+- flex-direction
+- justify-content
+- align-items
+- gap
+- flex-wrap
+
 ## Tools Used
 
 - Visual Studio Code
