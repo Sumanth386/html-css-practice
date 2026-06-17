@@ -1,0 +1,20 @@
+.box {
+    display: block;
+    border: 2px solid black;
+}
+
+.inline {
+    display: inline;
+    border: 1px solid red;
+}
+
+.card {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+}
+
+.hidden {
+    display: none;
+}
