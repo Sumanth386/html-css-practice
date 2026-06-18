@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 80px 400px 80px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.header {
+    grid-column: 1 / 3;
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sidebar {
+    background-color: lightseagreen;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.content {
+    background-color: goldenrod;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.footer {
+    grid-column: 1 / 3;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 30px;
+}
