@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+.header, .footer {
+    background-color: grey;
+    grid-column: span 3;
+    border: 2px solid black;
+    text-align: center;
+    padding: 30px;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 30px;
+    text-align: center;
+    background-color: violet;
+}

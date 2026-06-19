@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+}
+
+.header {
+    grid-column: span 3; /* occupy 2 columns */
+    background-color: darkmagenta;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.box {
+    background-color: green;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

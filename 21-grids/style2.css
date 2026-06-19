@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* fr- fraction of available space (divide available space into equal parts*/
+    gap: 20px;
+}
+
+.box {
+    background-color: navy;
+    color: white;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
