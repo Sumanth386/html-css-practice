@@ -1,0 +1,28 @@
+.card {
+    width: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: mediumpurple;
+    color: whitesmoke;
+
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.box {
+    width: 150px; 
+    height: 150px;
+    background-color: red;
+
+    transition: all 0.5s ease;
+}
+
+.box:hover {
+    width: 200px; 
+    height: 200px;
+    background-color: blue;
+}

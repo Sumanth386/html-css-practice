@@ -1,0 +1,13 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: greenyellow;
+    transition: all 0.5s ease;
+    text-align: center;
+    margin: 60px;
+    border-radius: 50%;
+}
+
+.box:hover {
+    transform: scale(1.2) rotate(360deg);
+}

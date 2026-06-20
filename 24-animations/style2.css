@@ -1,0 +1,17 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+
+    animation: moveRight 4s;
+}
+
+@keyframes moveRight {
+    from {
+        transform: translateX(0);
+    }
+    
+    to {
+        transform: translateX(300px);
+    }
+}
