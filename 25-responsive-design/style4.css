@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .card{
+        background-color: maroon;
+        color: whitesmoke
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}

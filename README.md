@@ -160,6 +160,18 @@
 - animation-direction
 - animation shorthand
 
+## 18 - Responsive Design
+
+- Viewport Meta Tag
+- Media Queries
+- max-width
+- min-width
+- Responsive Flexbox Layout
+- Responsive Grid Layout
+- Percentage Units (%)
+- Viewport Width (vw)
+- Viewport Height (vh)
+
 ## Tools Used
 
 - Visual Studio Code
