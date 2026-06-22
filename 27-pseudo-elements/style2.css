@@ -1,0 +1,16 @@
+p::first-letter {
+    font-size: 40px;
+    color: red;
+}
+
+p::first-line {
+    font-weight: bold;
+    color: blue;
+}
+
+/* Styles text when the user selects it with the mouse. */
+
+::selection {
+    background-color: black;
+    color: yellow;
+}

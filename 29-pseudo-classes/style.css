@@ -1,0 +1,26 @@
+button {
+    background-color: blue;
+    color: white;
+}
+
+/* :hover - Applies styles when the mouse is over an element. */
+button:hover {
+    background-color: red;
+}
+
+/* :active - applied while clicking an element */
+button:active {
+    transform: scale(0.95);
+}
+
+/* :focus - applied when an input is selected */
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+/* :checked - used with checkboxes and radio buttons */
+input:checked {
+    width: 20px;
+    height: 20px;
+}

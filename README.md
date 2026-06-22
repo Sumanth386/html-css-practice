@@ -172,6 +172,45 @@
 - Viewport Width (vw)
 - Viewport Height (vh)
 
+## 19 - CSS Variables
+
+- Custom Properties (--variable-name)
+- var() Function
+- Global Variables (:root)
+- Reusing Variables
+- Variable Fallback Values
+
+## 20 - Advanced Selectors
+
+- Descendant Selector (space)
+- Child Selector (>)
+- Adjacent Sibling Selector (+)
+- General Sibling Selector (~)
+- Attribute Selector ([attribute])
+- Attribute Value Selector ([attribute="value"])
+
+## 21 - Pseudo Classes
+
+- :hover
+- :active
+- :focus
+- :first-child
+- :last-child
+- :nth-child()
+
+## 22 - Pseudo Elements
+
+- ::before
+- ::after
+- ::first-letter
+- ::first-line
+- ::selection
+
+## 23 - CSS Shadows
+
+- box-shadow
+- text-shadow
+
 ## Tools Used
 
 - Visual Studio Code

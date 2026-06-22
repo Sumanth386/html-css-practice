@@ -1,0 +1,19 @@
+h1::after {
+    content: "";
+    display: block;
+    width: 125px;
+    height: 3px;
+    background-color: red;
+}
+
+.card::before {
+    content: "NEW ";
+}
+
+h2::before {
+    content: "📘 ";
+}
+
+h2::after {
+    content: " ✔";
+}

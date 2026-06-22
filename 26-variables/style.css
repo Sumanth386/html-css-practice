@@ -1,0 +1,17 @@
+:root {
+    /*Global variable*/
+    --primary-color: tomato;
+    --text-color: whitesmoke;
+    --card-padding: 20px;
+}
+
+.card {
+    /*local variable*/
+    --primary-color: blue;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: var(--card-padding);
+
+    /*fallback values*/
+    margin: var(--main-margin, 20px);
+}
